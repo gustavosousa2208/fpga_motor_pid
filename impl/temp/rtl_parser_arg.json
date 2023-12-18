@@ -1,0 +1,42 @@
+{
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/big_display.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/gowin_rpll/gowin_rpll.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/motor.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/terminal.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/uart.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_2008"
+}

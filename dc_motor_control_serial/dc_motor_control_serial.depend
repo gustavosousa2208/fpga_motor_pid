@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1702864055 source:c:\users\gusta\onedrive\documentos\novos_projetos_hdl\dc_motor_control\dc_motor_control_serial\main.c
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<inttypes.h>
+

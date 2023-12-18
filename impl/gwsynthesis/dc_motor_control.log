@@ -1,0 +1,89 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\big_display.vhd'
+Analyzing entity 'display'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\big_display.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\big_display.vhd":15)
+Analyzing VHDL file 'C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\gowin_rpll\gowin_rpll.vhd'
+Analyzing entity 'gowin_rpll'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\gowin_rpll\gowin_rpll.vhd":12)
+Analyzing architecture 'behavioral'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\gowin_rpll\gowin_rpll.vhd":19)
+Analyzing VHDL file 'C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\motor.vhd'
+Analyzing entity 'motor'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\motor.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\motor.vhd":19)
+Analyzing VHDL file 'C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd'
+Analyzing entity 'terminal'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":20)
+Analyzing VHDL file 'C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd'
+Analyzing entity 'top'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":9)
+Analyzing architecture 'rtl'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":29)
+Analyzing VHDL file 'C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\uart.vhd'
+Analyzing entity 'uart'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\uart.vhd":28)
+Analyzing architecture 'logic'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\uart.vhd":49)
+Processing 'top(rtl)'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":9)
+Processing 'terminal(rtl)'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":5)
+Processing 'uart(clk_freq=27000000,baud_rate=115200,parity=0)(logic)'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\uart.vhd":28)
+WARN  (EX4749) : 'os_pulse' should be on the sensitivity list of the process("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\uart.vhd":106)
+WARN  (EX4387) : Incomplete sensitivity list specified, assuming completeness("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\uart.vhd":142)
+WARN  (EX4749) : 'sys_reset' should be on the sensitivity list of the process("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":84)
+WARN  (EX4749) : 'treated' should be on the sensitivity list of the process("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":84)
+WARN  (EX4387) : Incomplete sensitivity list specified, assuming completeness("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":91)
+'others' clause is never selected("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":112)
+Processing 'motor(rtl)'("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\motor.vhd":5)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "desiredSpeed[31]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[30]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[29]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[28]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[27]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[26]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[25]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[24]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[23]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[22]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[21]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[20]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[19]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[18]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[17]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[16]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[15]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[14]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[13]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[12]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[11]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[10]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[9]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[8]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[7]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[6]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[5]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[4]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[3]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[2]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[1]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "desiredSpeed[0]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":9)
+WARN  (EX0211) : The output port "leds[5]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":16)
+WARN  (EX0211) : The output port "leds[4]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":16)
+WARN  (EX0211) : The output port "leds[3]" of module "terminal" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\terminal.vhd":16)
+WARN  (EX0211) : The output port "cs" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":21)
+WARN  (EX0211) : The output port "mosi" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":21)
+WARN  (EX0211) : The output port "sck" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":21)
+WARN  (EX0211) : The output port "dc" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\top.vhd":21)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\gwsynthesis\dc_motor_control.vg" completed
+[100%] Generate report file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\gwsynthesis\dc_motor_control_syn.rpt.html" completed
+GowinSynthesis finish

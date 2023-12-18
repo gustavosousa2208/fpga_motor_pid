@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src
+Euart
+Z1 w1701012322
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src
+Z5 8uart.vhd
+Z6 Fuart.vhd
+l0
+L28
+VBSYQWi<j0PULeCbh04C`C1
+!s100 g0DEllKz=<lBm2Dnn]o@`0
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1702692869.859000
+Z9 !s90 -reportprogress|300|-work|work|uart.vhd|
+Z10 !s107 uart.vhd|
+Z11 o-work work -O0
+Z12 tExplicit 1
+Alogic
+R2
+R3
+DEx4 work 4 uart 0 22 BSYQWi<j0PULeCbh04C`C1
+l61
+L49
+V700T=QVgK<E;;g`n9j4LI0
+!s100 kYVoYOO55M>3ckL_]VXJ;3
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

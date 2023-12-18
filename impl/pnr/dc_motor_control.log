@@ -1,0 +1,30 @@
+Reading netlist file: "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\gwsynthesis\dc_motor_control.vg"
+Parsing netlist file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\gwsynthesis\dc_motor_control.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\src\dc_motor_control.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'encoder_d[0]' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\pnr\dc_motor_control.power.html" completed
+Generate file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\pnr\dc_motor_control.pin.html" completed
+Generate file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\pnr\dc_motor_control.rpt.html" completed
+Generate file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\pnr\dc_motor_control.rpt.txt" completed
+Generate file "C:\Users\gusta\OneDrive\Documentos\Novos_projetos_HDL\dc_motor_control\impl\pnr\dc_motor_control.tr.html" completed
+Sun Dec 17 23:22:58 2023
+

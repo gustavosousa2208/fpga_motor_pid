@@ -1,0 +1,54 @@
+[
+ {
+  "InstFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/big_display.vhd",
+  "InstLine" : 5,
+  "InstName" : "display",
+  "ModuleFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/big_display.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "display"
+ },
+ {
+  "InstFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/gowin_rpll/gowin_rpll.vhd",
+  "InstLine" : 12,
+  "InstName" : "Gowin_rPLL",
+  "ModuleFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/gowin_rpll/gowin_rpll.vhd",
+  "ModuleLine" : 12,
+  "ModuleName" : "Gowin_rPLL"
+ },
+ {
+  "InstFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/top.vhd",
+  "InstLine" : 9,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/top.vhd",
+  "ModuleLine" : 9,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/top.vhd",
+    "InstLine" : 79,
+    "InstName" : "terminal0",
+    "ModuleFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/terminal.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "terminal",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/terminal.vhd",
+      "InstLine" : 61,
+      "InstName" : "uart0",
+      "ModuleFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/uart.vhd",
+      "ModuleLine" : 28,
+      "ModuleName" : "uart"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/top.vhd",
+    "InstLine" : 99,
+    "InstName" : "motor0",
+    "ModuleFile" : "C:/Users/gusta/OneDrive/Documentos/Novos_projetos_HDL/dc_motor_control/src/motor.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "motor"
+   }
+  ]
+ }
+]
